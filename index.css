@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height:100vh;
+
+   /** background-color: rgb(202, 196, 188); **/
+   background-image: url("https://wallpapercave.com/wp/wp5134478.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width:350px;
+    height:300px;
+   /** border: 2px solid black;  **/
+    border-radius: 10px;
+  /**  background-color: rgb(227, 197, 121); **/
+     background-image: url("https://i.pinimg.com/564x/83/1a/c0/831ac0298fab9c26598b26097279ba41.jpg");
+    box-shadow: 0 0 30px black;
+}
+
+.login-header{
+    margin:20px;
+    text-align: center;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.login-header span{
+    margin:10px;
+    padding:100px;
+}
+.login-details{
+    width:80%;
+    margin:10px;
+    padding:10px;
+}
+.login-details span{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login-details input{
+    width:170px;
+    height:20px;
+    margin:5px;
+    padding:5px;
+    gap:5px;
+    background-color:transparent;
+
+    border:none;
+    outline:none;
+    margin-bottom:6px;
+}
+/** .login-details input:hover{
+    transform:scale(1.1);  
+} **/
+.login-details input:focus{
+
+    border-bottom: 2px solid black;
+}
+.login-terms{
+    display:flex;
+    justify-content:flex-start ;
+    align-items: center;
+}
+.login-terms input{
+    margin:0px;
+}
+.login-terms label{
+    cursor:pointer;
+    text-decoration: underline;
+}
+.login-check{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.login-check button{
+    width:100px;
+    height:30px;
+    background-color: crimson;
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    font-size: 15px;
+    color:white;
+    cursor:pointer;
+
+}
+.login-check button:hover{
+      transform:scale(1.1);
+}
+.login-check button:active{
+    transform:scale(0.9);
+}
+
+.login-forgot span{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.login-forgot span:hover{
+    transform: scale(0.9);
+}
+.login-forgot span:active{
+    transform:scale(1.1);
+}
+.login-signin{
+    display:flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 15px;
+}
+.login-signin #span2{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.login-signin #span2:hover{
+    transform:scale(0.9);
+}
+.login-signin #span2:active{
+    transform:scale(1.1);
+}
